@@ -1,4 +1,4 @@
-import {MapPin,Check, CircleCheck} from "lucide-react"
+import {MapPin,Check, SquareCheck} from "lucide-react"
 function HeroSection(){
 
     return (
@@ -61,11 +61,11 @@ function HeroSection(){
         <p class="text-gray-700 mt-4 text-sm">
         You can explore the features that we provide with fun and<br/> 
         have their own functions each feature.</p>
-        <ul class="mt-5 text-gray-700">
-            <li className="flex"> <CircleCheck className="bg-green-500 text-white rounded-xl mr-2"/>Powerfull online protection.</li>
-            <li className="flex"> <CircleCheck className="bg-green-500 text-white rounded-xl mr-2"/>Internet without borders.</li>
-            <li className="flex"> <CircleCheck className="bg-green-500 text-white rounded-xl mr-2"/>Supercharged VPN</li>
-            <li className="flex"> <CircleCheck className="bg-green-500 text-white rounded-xl mr-2"/>No specific time limits.</li>
+        <ul class="mt-5 text-gray-700 leading-loose">
+            <li className="flex items-center"> <Check className="bg-green-400 text-white rounded-2xl mr-2 w-5 h-5"/>Powerfull online protection.</li>
+            <li className="flex items-center"> <Check className="bg-green-400 text-white rounded-xl mr-2  w-5 h-5"/>Internet without borders.</li>
+            <li className="flex items-center"> <Check className="bg-green-400 text-white rounded-xl mr-2 w-5 h-5"/>Supercharged VPN</li>
+            <li className="flex items-center"> <Check className="bg-green-400 text-white rounded-xl mr-2 w-5 h-5"/>No specific time limits.</li>
         </ul>
 
     </div>
@@ -84,10 +84,10 @@ function HeroSection(){
          <div class="text-gray-700 mt-7">
             <ul>
               
-                <li className="flex"> <Check/>Unlimited Bandwitch</li>
-                <li className="flex"><Check/>Encrypted Connection</li>
-                <li className="flex"><Check/>No Traffic Logs</li>
-                <li className="flex"><Check/>Works on All Devices</li>
+                <li className="flex"><Check className="text-green-400 w-5 mr-2"/>Unlimited Bandwitch</li>
+                <li className="flex"><Check className="text-green-400 w-5 mr-2"/>Encrypted Connection</li>
+                <li className="flex"><Check className="text-green-400 w-5 mr-2"/>No Traffic Logs</li>
+                <li className="flex"><Check className="text-green-400 w-5 mr-2"/>Works on All Devices</li>
             </ul>
          </div>
 
@@ -101,11 +101,11 @@ function HeroSection(){
          <p class="items-center justify-center ml-7 mt-5 text-blue-950"><b>Standard Plan</b></p>
          <div class="text-gray-700 mt-7">
             <ul>
-                <li className="flex"> <Check/> Unlimited Bandwitch</li>
-                <li className="flex"> <Check/> Encrypted Connection</li>
-                <li className="flex"> <Check/>No Traffic Logs</li>
-                <li className="flex"> <Check/>Works on All Devices</li>
-                <li className="flex"> <Check/>Connect Anyware</li>
+                <li className="flex"> <Check className="text-green-400 w-5 mr-2"/> Unlimited Bandwitch</li>
+                <li className="flex"> <Check className="text-green-400 w-5 mr-2"/> Encrypted Connection</li>
+                <li className="flex"> <Check className="text-green-400 w-5 mr-2"/>No Traffic Logs</li>
+                <li className="flex"> <Check className="text-green-400 w-5 mr-2"/>Works on All Devices</li>
+                <li className="flex"> <Check className="text-green-400 w-5 mr-2"/>Connect Anyware</li>
             </ul>
          </div>
 
@@ -119,12 +119,12 @@ function HeroSection(){
          <p class="items-center justify-center ml-7 mt-5 text-blue-950"><b>Premium Plan</b></p>
          <div class="text-gray-700 mt-7">
             <ul>
-                <li className="flex"> <Check/> Unlimited Bandwitch</li>
-                <li className="flex"> <Check/> Encrypted Connection</li>
-                <li className="flex"> <Check/> No Traffic Logs</li>
-                <li className="flex"> <Check/> Works on All Devices</li>
-                <li className="flex"> <Check/> Connect Anyware</li>
-                <li className="flex"> <Check/> Get New Features</li>
+                <li className="flex"> <Check className="text-green-400 w-5 mr-2"/> Unlimited Bandwitch</li>
+                <li className="flex"> <Check className="text-green-400 w-5 mr-2"/> Encrypted Connection</li>
+                <li className="flex"> <Check className="text-green-400 w-5 mr-2"/> No Traffic Logs</li>
+                <li className="flex"> <Check className="text-green-400 w-5 mr-2"/> Works on All Devices</li>
+                <li className="flex"> <Check className="text-green-400 w-5 mr-2"/> Connect Anyware</li>
+                <li className="flex"> <Check className="text-green-400 w-5 mr-2"/> Get New Features</li>
             </ul>
          </div>
 
