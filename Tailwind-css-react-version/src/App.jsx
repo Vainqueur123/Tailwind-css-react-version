@@ -1,3 +1,4 @@
+import Footer from "./Footer"
 import HeroSection from "./HeroSection"
 import MapSection from "./MapSecction"
 import Navbar from "./Navbar"
@@ -14,6 +15,7 @@ function App() {
       <MapSection/>
       <Testimonial/>
       <Subscribers/>
+      <Footer/>
     </div>
   )
 }

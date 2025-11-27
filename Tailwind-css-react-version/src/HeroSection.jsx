@@ -1,4 +1,4 @@
-import {MapPin} from "lucide-react"
+import {MapPin,Check, CircleCheck} from "lucide-react"
 function HeroSection(){
 
     return (
@@ -13,15 +13,15 @@ function HeroSection(){
          with ease and fun using <b>LaslesVPN</b> <br/>
         discover interesting features from us.</p>
 
-        <button class="bg-red-500 text-white w-40 h-10 rounded-xl mt-4 shadow-2xl">Get Started</button>
+        <button class="bg-red-500 text-white w-40 h-10 rounded-xl mt-4 shadow-2xl shadow-red-600">Get Started</button>
          </div>
          <div class="">
            <img src="/Illustration 1.png"  class="w-120 h-60 ml-25"/>
      </div>
       </div>
       
-        <div class="flex gap-70 ml-30 items-center mt-20">
-    <div class="flex">
+  <div class="flex gap-70 ml-30 items-center mt-20 shadow-2xl shadow-gray-100">
+     <div class="flex">
     
       <img src="/user.png" class=""/>
       <div>
@@ -48,7 +48,7 @@ function HeroSection(){
       </div>
        
     </div>
-    </div>
+  </div>
 
     <div class="mt-20 flex gap-30">
     <div >
@@ -62,10 +62,10 @@ function HeroSection(){
         You can explore the features that we provide with fun and<br/> 
         have their own functions each feature.</p>
         <ul class="mt-5 text-gray-700">
-            <li>Powerfull online protection.</li>
-            <li>Internet without borders.</li>
-            <li>Supercharged VPN</li>
-            <li>No specific time limits.</li>
+            <li className="flex"> <CircleCheck className="bg-green-500 text-white rounded-xl mr-2"/>Powerfull online protection.</li>
+            <li className="flex"> <CircleCheck className="bg-green-500 text-white rounded-xl mr-2"/>Internet without borders.</li>
+            <li className="flex"> <CircleCheck className="bg-green-500 text-white rounded-xl mr-2"/>Supercharged VPN</li>
+            <li className="flex"> <CircleCheck className="bg-green-500 text-white rounded-xl mr-2"/>No specific time limits.</li>
         </ul>
 
     </div>
@@ -83,16 +83,17 @@ function HeroSection(){
          <p class="items-center justify-center ml-9 mt-5 text-blue-950"><b>Free Plan</b></p>
          <div class="text-gray-700 mt-7">
             <ul>
-                <li>Unlimited Bandwitch</li>
-                <li>Encrypted Connection</li>
-                <li>No Traffic Logs</li>
-                <li>Works on All Devices</li>
+              
+                <li className="flex"> <Check/>Unlimited Bandwitch</li>
+                <li className="flex"><Check/>Encrypted Connection</li>
+                <li className="flex"><Check/>No Traffic Logs</li>
+                <li className="flex"><Check/>Works on All Devices</li>
             </ul>
          </div>
 
-         <p class="mt-20 text-blue-950"><b>Free</b></p>
+         <p class="mt-20 text-blue-950 ml-10" ><b>Free</b></p>
 
-         <button class="border-2 border-red-500 text-red-500 mt-2 w-25 rounded-xl">Select</button>
+         <button class="border-2 border-red-500 text-red-500 mt-2 w-25 rounded-xl ml-3">Select</button>
         </div>
 
         <div class="">
@@ -100,17 +101,17 @@ function HeroSection(){
          <p class="items-center justify-center ml-7 mt-5 text-blue-950"><b>Standard Plan</b></p>
          <div class="text-gray-700 mt-7">
             <ul>
-                <li>Unlimited Bandwitch</li>
-                <li>Encrypted Connection</li>
-                <li>No Traffic Logs</li>
-                <li>Works on All Devices</li>
-                <li>Connect Anyware</li>
+                <li className="flex"> <Check/> Unlimited Bandwitch</li>
+                <li className="flex"> <Check/> Encrypted Connection</li>
+                <li className="flex"> <Check/>No Traffic Logs</li>
+                <li className="flex"> <Check/>Works on All Devices</li>
+                <li className="flex"> <Check/>Connect Anyware</li>
             </ul>
          </div>
 
-         <p class="mt-14 text-gray-700"><b class="text-blue-950">$9</b> / mo</p>
+         <p class="mt-14 text-gray-700"><b class="text-blue-950 ml-10">$9</b> / mo</p>
 
-         <button class="border-2 border-red-500 text-red-500 mt-2 w-25 rounded-xl">Select</button>
+         <button class="border-2 border-red-500 text-red-500 mt-2 w-25 rounded-xl ml-5">Select</button>
         </div>
 
         <div class="">
@@ -118,18 +119,18 @@ function HeroSection(){
          <p class="items-center justify-center ml-7 mt-5 text-blue-950"><b>Premium Plan</b></p>
          <div class="text-gray-700 mt-7">
             <ul>
-                <li>Unlimited Bandwitch</li>
-                <li>Encrypted Connection</li>
-                <li>No Traffic Logs</li>
-                <li>Works on All Devices</li>
-                <li>Connect Anyware</li>
-                <li>Get New Features</li>
+                <li className="flex"> <Check/> Unlimited Bandwitch</li>
+                <li className="flex"> <Check/> Encrypted Connection</li>
+                <li className="flex"> <Check/> No Traffic Logs</li>
+                <li className="flex"> <Check/> Works on All Devices</li>
+                <li className="flex"> <Check/> Connect Anyware</li>
+                <li className="flex"> <Check/> Get New Features</li>
             </ul>
          </div>
 
-         <p class="mt-8 text-gray-700"><b class="text-blue-950">$12</b> / mo</p>
+         <p class="mt-8 text-gray-700"><b class="text-blue-950 ml-10">$12</b> / mo</p>
 
-         <button class="border-2 text-white bg-red-500 mt-2 w-25 rounded-xl">Select</button>
+         <button class="border-2 text-white bg-red-500 mt-2 w-25 rounded-xl shadow-red-700 shadow-2xl ml-5">Select</button>
         </div> 
  </div>
 

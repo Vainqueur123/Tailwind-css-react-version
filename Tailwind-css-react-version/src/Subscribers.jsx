@@ -2,7 +2,8 @@
 function Subscribers(){
 
     return(
-        <div className="flex items-center gap-130 mt-15 shadow-3xl">
+        <div className="flex items-center gap-120 mt-15 shadow-3xl
+         bg-gray-100 shadow-2xl shadow-gray-300 mb-10 w-280 ml-10">
             <div className="ml-15">
                 <h1 className="text-3xl text-blue-950 ">Subscribe Now for<br/>
                  Get Special Features!</h1>
